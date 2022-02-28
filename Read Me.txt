@@ -1,0 +1,21 @@
+Atradius Internship Assessment
+This zipped file contains files for the solution to the Data engineeering internship assessment.
+
+Installation Guide
+1. Setting up and activating a Virtual Environment of Python
+This requires python version 3.8. and above installed on your machine. 
+- Launch the Terminal and ensure you navigate to the root folder
+- Type the below code in the terminal to setup a Python virtual environment:
+	python3 -m venv /path/virtual_environment_name
+			or
+- Refer to this link for setting up and activating your virtual environment - https://docs.python.org/3/tutorial/venv.html
+
+2. Install required libraries
+In this folder a file called requirements.txt contains the necessary libraries to execute this project.
+Use the following code to install the libraries: python -m pip install -r requirements.txt
+
+3 Run Flask App
+Access the app at: http://127.0.0.1:5000/tweets
+
+Before executing this project, update your twitter API credentials to the keys.env file in the folder and rename the file as .env
+
